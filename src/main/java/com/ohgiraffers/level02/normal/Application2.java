@@ -11,7 +11,13 @@ public class Application2 {
 		 * 총점 : 201
 		 * 평균 : 67
 		 *  */
-		
+
+		float korean = 80.5F;
+		float math = 50.6F;
+		float english = 70.8F;
+
+		System.out.println("총점 : " + (int)(korean + math + english));
+		System.out.println("평균 : " + (int)((korean + math + english)/3));
 	}
 
 }
